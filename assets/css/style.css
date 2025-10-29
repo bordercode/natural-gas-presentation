@@ -1,0 +1,24 @@
+/* Additional styles can go here if you want to separate from inline styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add any additional responsive styles here */
+@media (max-width: 480px) {
+    .slide-title {
+        font-size: 1.5rem;
+    }
+    
+    .slide-content {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+    
+    .nav-btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
